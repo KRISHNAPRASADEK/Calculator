@@ -1,0 +1,50 @@
+body,html,#head,#cal{
+    background-color: #384b76;
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    border: 1px solid #4a67a8;
+    background: rgba(242, 245, 250, 0);
+    color: white;
+    font-weight: bolder;
+
+}
+button:hover{
+    background-color: #384c79;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#maincal{
+    background-color: #202f52;
+    width: 300px;
+    padding: 10px;
+    border-radius: 6%;
+    box-shadow:20px 20px 20px rgb(35, 35, 35);
+}
+#cal{
+    display: flex;
+    justify-content:space-around;
+}
+#input{
+    font-size: 24px;
+    border: none;
+    
+}
+.display{
+    margin:10px ;
+    display: flex;
+    justify-content: center;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    font-size: 4em;
+    padding: 20px;
+}
